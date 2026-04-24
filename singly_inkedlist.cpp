@@ -114,6 +114,28 @@ void traverse()
     };
 
 
+int main()
+{
+    LinkedList mhs;
+    int nim;
+    char ch;
+
+    do
+    {
+        cout << endl
+             << "Menu";
+        cout << endl
+             << "1. Menambah data kedalam list" << endl;
+        cout << "2. Menghapus data dari dalam list" << endl;
+        cout << "3. Menampilkan semua data didalam list" << endl;
+        cout << "4. Menampilkan semua data didalm d=list secara terbalik" << endl;   
+        cout <s "5. Mencari data dalam list" << endl;
+        cout << "6. Keluar" << endl;
+        cout << endl
+            << "Masukkan pilihan (1-5): ";
+        cin >> ch;
+        switch (ch)
+
 
 
 

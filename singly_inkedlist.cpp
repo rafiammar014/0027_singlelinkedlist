@@ -39,9 +39,11 @@ public
     return;
     }
 
+    node *previous = START;
+    Node *current = START;
 
 
 
-    }
+}
 
 }

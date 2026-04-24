@@ -72,13 +72,13 @@ public
     while ((*current != NULL) && (nim != (*current)->noMhs))
     {
     *previous = *current;
-    currrent = (*current)->next;
+    *currrent = (*current)->next;
     }
 
     return (*current != NULL);
 }
 
-
+    bool deleteNode(int nim)
 
 
 

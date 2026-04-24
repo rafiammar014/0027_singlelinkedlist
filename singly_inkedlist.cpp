@@ -132,10 +132,16 @@ int main()
         cout <s "5. Mencari data dalam list" << endl;
         cout << "6. Keluar" << endl;
         cout << endl
-            << "Masukkan pilihan (1-5): ";
+             << "Masukkan pilihan (1-5): ";
         cin >> ch;
         switch (ch)
-
+        {
+        case '1':
+        {
+            mhs.addNode();
+        }
+        break;
+        
 
 
 

@@ -64,4 +64,15 @@ public
 
 }
 
+    bool Search(int nim, Node **previous, Node **current)
+{
 
+
+
+}
+
+
+
+
+
+}
